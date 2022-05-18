@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'nokiaCellphone';
+    src: url('nokiafc22.eot');
+    src: url('nokiafc22.woff2') format('woff2'),
+         url('NokiaCellphoneFC-Small.woff') format('woff'),
+         url('NokiaCellphoneFC-Small.ttf') format('truetype'),
+         url('NokiaCellphoneFC-Small.svg#customFont') format('svg'),
+         url('nokiafc22.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+#content{
+    border:white 5px solid;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+select{
+    font-size: 24px;
+    font-family: nokiaCellphone;
+    white-space: normal;
+    word-wrap: break-word;
+    background-color:black;
+    padding: 5px;
+    color:#adadad;
+    border: 5px solid #adadad;
+    border-radius: 0px;
+}
+
+select:hover{
+    color:#ffffff;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+select:active{
+    color:#ffffff;
+    border-color: #ffffff;
+    background-color: #959595;
+    box-shadow: 0px 0px 20px white;
+    text-shadow: 0px 0px 20px white;
+}
+
+#coments{
+    font-family: nokiaCellphone;
+    border:white 5px solid;
+    padding: 10px;
+    margin-right: 720px;
+}
+
+h1{
+    text-shadow: 0px 0px 10px white;
+}
+
+p{
+    box-shadow: 0px 0px 0px white;
+    text-shadow: 0px 0px 0px white;
+}
+
+.mainButtons{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+.mainButtons button{
+    margin: 5px;
+    width: 250px;
+}
+
+.mainButtons video, img{
+    margin: 10px;
+    border:white 5px solid;
+    padding: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+html{
+    font-size: 32px;
+    font-family: nokiaCellphone;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 32px;
+    border:white 5px solid;
+    position: sticky;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    background: linear-gradient(#323350, #000000);
+    z-index: 5;
+    box-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px white;
+    /*
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    */
+
+    top: 8px;
+}
+
+#headerContainer{
+    min-width: 550px;
+    text-align: center;
+    transform: translateY(-35px);
+}
+
+#logoText{
+    text-align: center;
+    transform: translateY(-35px);
+    box-shadow: 0px 0px 0px white;
+    text-shadow: 0px 0px 0px white;
+}
+
+#pvini07{
+    color: #fffb00;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #1900ff;;
+}
+
+#B{
+    color: #fffb00;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #00ff15;
+}
+
+#R{
+    color: #00ff15;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #fffb00;
+}
+
+hr{
+    border: none;
+    height: 5px;
+    width: 1600px;
+    box-shadow: 0px 0px 10px white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+button{
+    font-size: 32px;
+    font-family: nokiaCellphone;
+    white-space: normal;
+    word-wrap: break-word;
+    background-color:black;
+    color:#adadad;
+    border: 5px solid #adadad;
+    border-radius: 0px;
+}
+
+button:hover{
+    color:#ffffff;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 10px white;
+    text-shadow: 0px 0px 10px white;
+}
+
+button:active{
+    color:#ffffff;
+    border-color: #ffffff;
+    background-color: #959595;
+    box-shadow: 0px 0px 20px white;
+    text-shadow: 0px 0px 20px white;
+}

@@ -1,1 +1,72 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>site do pvini</title>
+        
+        <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/style.css">
+        <div id="logo">
+            <div id="headerContainer">
+                <select id="lang-switch" autocomplete="off">
+                    <option>Português</option>
+                    <option>English</option>
+                </select>
+            </div>
+            <h1 id="logoText" style="float: center;">
+                <a style="text-decoration: none;">
+                    <span id="pvini07">pvini07</span><span id="B">B</span><span id="R">R</span>
+                </a>
+            </h1>
+            <div id="headerContainer">
+                <span class='pt'>Página principal</span>
+                <span class='en'>Main page</span>
+            </div>
+        </div>
+    </head>
+
+    <body>
+        <div id="content">
+            <h1 class='pt' style="text-align: center;">seja bem-vindo a este site magnífico.</h1>
+            <h1 class='en' style="text-align: center;">welcome to this incredible website.</h1>
+            <hr>
+            <p style="text-align: center; margin-left:300px; margin-right:300px;">
+                <span class='pt'>Este site foi feito com o intuito de mostrar quem eu sou, as coisas que eu já fiz, o que ando fazendo, o que planejo fazer, e o que gosto de fazer!</span>
+                <span class='en'>This website was made with demonstration purposes, of who I am, things I've made, what I've been doing, what I intend to do, and what I like to do!</span>
+                <br>
+                <br>
+                <span class='pt'>também foi feito com o intuito de treinar programação com HTML, CSS e JavaScript.</span>
+                <span class='en'>it was also made with the purpose of training HTML, CSS and JavaScript programming.</span>
+                <br>
+                <br>
+                <span class='pt'>Mais conteúdo <small>(provavelmente)</small> será adicionado em breve!</span>
+                <span class='en'>More content will <small>(probably)</small> be added in the future!</span>
+                <br>
+                <br>
+                
+                <div class="mainButtons">
+                    <button onclick="goToInteralLink('pages/about_me.html')">
+                        <span class='pt'>sobre mim</span>
+                        <span class='en'>about me</span>
+                    </button>
+                    <button onclick="goToInteralLink('pages/memes.html')">
+                        memes
+                    </button>
+                </div>
+            </p>
+            <br>
+            <br>
+            <div id="coments">
+                <!-- begin wwww.htmlcommentbox.com* -->
+                <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+                <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+                <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24TXeWQFgUnzfLqm06NWQHO%2F"+"&opts=16862&num=10&ts=1597091223774");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*/**/ </script> 
+                <!-- end www.htmlcommentbox.com* -->
+            </div>
+        </div>
+        
+        <script src="http://127.0.0.1:5500/index.js"></script>
+    </body>
+</html>
