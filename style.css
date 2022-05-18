@@ -138,19 +138,19 @@ html{
 
 #pvini07{
     color: #fffb00;
-    -webkit-text-stroke-width: 4px;
-    -webkit-text-stroke-color: #1900ff;;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #1900ff;
 }
 
 #B{
     color: #fffb00;
-    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #00ff15;
 }
 
 #R{
     color: #00ff15;
-    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #fffb00;
 }
 
